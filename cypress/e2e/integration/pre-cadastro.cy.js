@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 /*bibliotica para dados fake, necessário instalar antes*/
+// npm install faker@5.5.3
 var faker = require('faker');
 
 describe('Funcionalidade Pré Cadastro', () => {
