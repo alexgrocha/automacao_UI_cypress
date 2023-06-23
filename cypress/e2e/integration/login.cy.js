@@ -34,7 +34,7 @@ describe('Funcionaliade Login', () => {
         cy.get('#rememberme').click()
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error > li').should('contain', 'Endereço de e-mail desconhecido')        
+        cy.get('.woocommerce-error > li').should('contain', 'Erro: a senha')        
     })
 
     it('Deve exibir uma mensagem de erro ao inserir usuário ou senha inválidos!', () => {
