@@ -16,7 +16,7 @@ pipeline{
         }
         stage('Report'){
             steps {
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'mochawesome-report', reportFiles: 'report.html', reportName: 'Teste Aula Cypress parte II - atividade 11', reportTitles: '', useWrapperFileDirectly: true])
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'mochawesome-report', reportFiles: 'report.html', reportName: 'Automacao UI cypress tarefa 11', reportTitles: '', useWrapperFileDirectly: true])
             }
         }
     }    
